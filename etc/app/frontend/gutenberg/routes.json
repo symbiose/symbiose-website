@@ -1,0 +1,7 @@
+[
+	{
+		"url":"/pages/([a-zA-Z0-9-_.]+)",
+		"action":"showPage",
+		"vars":["pageName"]
+	}
+]

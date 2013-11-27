@@ -1,0 +1,7 @@
+[
+    {
+        "url": "\/(index\\.html)?",
+        "module": "customer",
+        "action": "index"
+    }
+]

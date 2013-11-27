@@ -1,0 +1,16 @@
+[
+	{
+		"url":"/admin/(index\\.html)?",
+		"action":"index"
+	},
+	{
+		"url":"/admin/module-([a-zA-Z0-9_.-]+)\\.html",
+		"action":"showModule",
+		"vars": ["module"]
+	},
+	{
+		"url":"/admin/action-([a-zA-Z0-9_.]+)-([a-zA-Z0-9_.-]+)\\.html",
+		"action":"showAction",
+		"vars": ["module","action"]
+	}
+]

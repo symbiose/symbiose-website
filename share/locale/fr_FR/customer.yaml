@@ -1,0 +1,51 @@
+index:
+	shortDescription:
+		title: Symbiose, le webos libre et flexible
+		content: --- | 
+			Avec Symbiose, sauvegardez et éditez vos documents en ligne pour les retrouver partout où vous allez. Vous partez en vacances ou en voyage d’affaire ? Connectez-vous simplement au Web OS pour retrouver l’ensemble de vos documents.
+			Profitez des logiciels développés par la communauté des développeurs afin d’éditer des fichiers, de visionner des films ou d’écouter de la musique !
+			Symbiose met également à votre disposition un espace de stockage pour vous permettre de sauvegarder vos fichiers sur le Web OS ainsi qu’un espace d’administration pour gérer votre compte et ceux des autres utilisateurs.
+		demoLink: Essayer le webos
+		githubLink: Voir le projet sur Github
+	carousel:
+		complete:
+			title: Complet
+			content: Des dizaines d'accessoires disponibles.
+			link: Découvrir les applications
+		customizable:
+			title: Personnalisable
+			content: Personnalisez votre bureau à votre goût !
+			link: Essayer le webos
+		interfaces:
+			title: Multiples interfaces
+			content: Choisissez une interface qui vous convient.
+			link: Tester les interfaces
+		admin:
+			title: Administration
+			content: Gérez les utilisateurs de votre webos.
+			link: Télécharger le webos
+		cloud:
+			title: Cloud
+			content: Utilisez Dropbox, Google Drive et FTP dans votre webos.
+			link: Commencer !
+	features:
+		openSource:
+			title: Un projet libre.
+			description: Symbiose est un projet libre et open-source à but non lucratif. Il est gratuit et développé par des bénévoles. Chacun peut l'améliorer !
+		flexible:
+			title: Flexible.
+			description: "Symbiose peut être modifié pour tous types d'usage : de la gestion de serveurs à la commande d'un robot en passant par le <em>private cloud</em>... Les possibilités sont considérables !"
+		speedy:
+			title: Rapide et moderne.
+			description: Le projet utilise les toutes dernières technologies HTML5. Il a été pensé pour être le plus rapide possible. Ce n'est pas l'Internet du temps de votre grand-père !
+		costumizable:
+			title: Personnalisable.
+			description: Le webos est personnalisable tant au niveau du thème que de l'interface. Choisissez l'apparence qui vous convient le mieux !
+		apps:
+			title: Applications.
+			description: Symbiose a sa propre logithèque qui contient non seulement des programmes développées pour le webos mais aussi toutes les applications du <a href="https://marketplace.firefox.com/">Firefox Marketplace</a>. Créer une application est aisé grâce à la bibliothèque de Symbiose.
+		safe:
+			title: Sûr.
+			description: Le projet étant libre, chacun peut contribuer à sa robustesse. Des mises à jours sont également disponibles fréquemment.
+	contactUs:
+		title: Contactez-nous !

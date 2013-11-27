@@ -1,0 +1,51 @@
+index:
+	shortDescription:
+		title: Symbiose - the open-source and flexible webos
+		content: --- | 
+			With Symbiose, save and edit your documents online to find them wherever you go. Going on vacation or business trip ? Simply login to the Web OS to find all of your documents.
+			Take advantage of software developed by the developer community to edit files, watch movies or listen to music!
+			Symbiose puts also at your disposal a storage space for you to back up your files on the webos and a administration area to manage your account and those of other users.
+		demoLink: Try the webos
+		githubLink: See the project on Github
+	carousel:
+		complete:
+			title: Complete
+			content: Dozens of accessories available.
+			link: Discover apps
+		customizable:
+			title: Customizable
+			content: Customize your desktop to your liking!
+			link: Try the webos
+		interfaces:
+			title: Multiples interfaces
+			content: CChoose your favorite interface.
+			link: Check out interfaces
+		admin:
+			title: Administration
+			content: Manage users on your webos.
+			link: Download the webos
+		cloud:
+			title: Cloud
+			content: 'Use Dropbox, Google Drive and FTP right in your webos.'
+			link: Begin!
+	features:
+		openSource:
+			title: An open-source project.
+			description: Symbiose is an open-source project released under a GPLv3 license. It's free and and made by volunteers. Everyone can improve it!
+		flexible:
+			title: Flexible.
+			description: Symbiose can be modified for various usages : from managing servers to the control of a robot or creating a private cloud... Huge possibilities!
+		speedy:
+			title: Fast and modern.
+			description: The project uses the latest HTML5 technologies. It is designed to be as fast as possible. It's not your grandfather's Internet!
+		costumizable:
+			title: Customizable.
+			description: 'The webos is customizable, both the theme and the interface. Choose the look that suits you best!'
+		apps:
+			title: Apps.
+			description: Symbiose comes with its own software centre which contains apps created by the community and apps from the <a href="https://marketplace.firefox.com/">Firefox Marketplace</a>. Developping an app is easy thanks to Symbiose's library.
+		safe:
+			title: Safe.
+			description: 'The project is open-source so everybody can contribute to its robustness. Moreover, updates are frequently available.'
+	contactUs:
+		title: Contact us!

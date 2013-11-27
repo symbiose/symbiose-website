@@ -1,0 +1,16 @@
+[
+	{
+		"url":"/admin/gutenberg/pages/insert",
+		"action":"insertPage"
+	},
+	{
+		"url":"/admin/gutenberg/pages/update/([a-zA-Z0-9-_.]+)",
+		"action":"updatePage",
+		"vars":["pageName"]
+	},
+	{
+		"url":"/admin/gutenberg/pages/delete/([a-zA-Z0-9-_.]+)",
+		"action":"deletePage",
+		"vars":["pageName"]
+	}
+]

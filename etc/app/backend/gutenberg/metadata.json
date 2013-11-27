@@ -1,0 +1,21 @@
+{
+	"title":"Gestionnaire de contenu Gutenberg",
+	"icon":"book",
+	"actions":{
+		"insertPage":{
+			"title":"Ajouter une page"
+		},
+		"updatePage":{
+			"title":"Modifier une page",
+			"list":{
+				"items":"pages"
+			}
+		},
+		"deletePage":{
+			"title":"Supprimer une page",
+			"list":{
+				"items":"pages"
+			}
+		}
+	}
+}
