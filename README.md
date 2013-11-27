@@ -1,4 +1,4 @@
-symbiose-webiste
+symbiose-website
 ================
 
 Symbiose's website
