@@ -13,7 +13,48 @@
 <body>
 	<!-- NAVBAR -->
 
-	<!--<p></p>--><!-- To add a space between the navbar and the content -->
+	<!-- NAVBAR
+================================================== -->
+<div class="{{#isIndex}}navbar-wrapper{{/isIndex}}">
+	<!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+	<div class="{{#isIndex}}container{{/isIndex}}">
+
+		<div class="navbar navbar-inverse{{^isIndex}} navbar-static-top{{/isIndex}}" role="navigation">
+			<div class="navbar-inner">
+
+			<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<a class="brand" href="{{WEBSITE_ROOT}}/"><img src="{{WEBSITE_ROOT}}/img/customer/index/logo.png" alt=""></a>
+			<div class="nav-collapse collapse">
+				<ul class="nav">
+					<li{{#isIndex}} class="active"{{/isIndex}}><a href="{{WEBSITE_ROOT}}/">Home</a></li>
+					<li><a href="http://webos.symbiose.fr.cr">Demo</a></li>
+				</ul>
+				<ul class="nav pull-right">
+					<li><a href="http://symbiose.fr.cr/wiki">Wiki</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="{{WEBSITE_ROOT}}/contact">Email</a></li>
+							<li><a href="http://twitter.com/symbiose_webos">Twitter</a></li>
+							<li><a href="http://fr.openclassrooms.com/forum/sujet/webos-symbiose-56355">Openclassrooms</a></li>
+							<li><a href="https://plus.google.com/115825269531819402710">Google Plus</a></li>
+							<li><a href="http://www.facebook.com/symbiose.webos">Facebook</a></li>
+							<li class="divider"></li>
+							<li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=X8SVTRW8VFK7S">Donate</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div><!--/.nav-collapse -->
+			</div><!-- /.navbar-inner -->
+		</div><!-- /.navbar -->
+
+		</div> <!-- /.container -->
+	</div><!-- /.navbar-wrapper -->
 
 	<div id="page-container">
 		{{{content}}}
@@ -35,5 +76,19 @@
 	</div><!-- /.container -->
 
 	{{#getLinkedFiles}}js{{/getLinkedFiles}}
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-32886561-1']);
+	_gaq.push(['_setDomainName', 'fr.cr']);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	</script>
 </body>
 </html>
