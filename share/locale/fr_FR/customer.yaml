@@ -16,6 +16,10 @@ index:
 			title: Personnalisable
 			content: Personnalisez votre bureau à votre goût !
 			link: Essayer le webos
+		music:
+			title: Musique
+			content: 'Ecoutez votre musique favorite, partout.'
+			link: Démarrer
 		interfaces:
 			title: Multiples interfaces
 			content: Choisissez une interface qui vous convient.
