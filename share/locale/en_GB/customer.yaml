@@ -18,11 +18,11 @@ index:
 			link: Try the webos
 		music:
 			title: Music
-			content: 'Listen to your favorite music, everywhere'
+			content: 'Listen to your favorite music, everywhere.'
 			link: Start now
 		interfaces:
 			title: Multiples interfaces
-			content: CChoose your favorite interface.
+			content: Choose your favorite interface.
 			link: Check out interfaces
 		admin:
 			title: Administration
@@ -51,5 +51,10 @@ index:
 		safe:
 			title: Safe.
 			description: 'The project is open-source so everybody can contribute to its robustness. Moreover, updates are frequently available.'
+	links:
+		wiki: Documentation
+		sourceCode: Source code
+		showRoadmap: Roadmap
+		reportIssue: Bugs
 	contactUs:
 		title: Contact us!

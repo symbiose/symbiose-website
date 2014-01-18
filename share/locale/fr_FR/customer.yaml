@@ -51,5 +51,10 @@ index:
 		safe:
 			title: Sûr.
 			description: Le projet étant libre, chacun peut contribuer à sa robustesse. Des mises à jours sont également disponibles fréquemment.
+	links:
+		wiki: Documentation
+		sourceCode: Code source
+		showRoadmap: Prochaines fonctionnalités
+		reportIssue: Bugs
 	contactUs:
 		title: Contactez-nous !
